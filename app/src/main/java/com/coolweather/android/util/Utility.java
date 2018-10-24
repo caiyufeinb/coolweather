@@ -16,7 +16,7 @@ import org.json.JSONObject;
 public class Utility {
     private static final String TAG = "Utility";
     /*
-    解析和处理服务器返回的省级数据
+    解析和处理服务器返回的省级数据，并且存入数据库。
      */
     public static boolean handleProvinceResponse(String response){
         if(!TextUtils.isEmpty(response)){//判断返回的数据是否为空
